@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+body {
+  padding-top: 70px;
+  margin-left: 10px;
+  padding-right: 50px;
+}
+
+.form-control.ng-touched.ng-invalid {
+  border: 2px solid red;
+}
